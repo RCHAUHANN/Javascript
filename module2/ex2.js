@@ -4,7 +4,7 @@ let ol = document.getElementById('names');
 let num1= parseInt(prompt('give the number of participants'));
 
 for (let i=0; i<num1; i++){
-  name.push(prompt('enter the name of the participant'))
+  name.push(prompt('enter the name of the participant' +i))
 }
 for (let i=0;i<name.length;i++) {
   var li = document.createElement('li');
